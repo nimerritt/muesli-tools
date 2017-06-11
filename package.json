@@ -1,6 +1,6 @@
 {
   "name": "@nimerritt/muesli-tools",
-  "version": "0.0.0-development",
+  "version": "0.0.1",
   "description": "Tools for generating code from Muesli-Schemas",
   "publishConfig": { "access": "public" },
   "scripts": {
