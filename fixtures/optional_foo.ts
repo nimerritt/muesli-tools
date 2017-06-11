@@ -1,0 +1,3 @@
+interface OptionalFoo {
+  foo?: string;
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Foo",
+  "type": "object",
+  "properties": {
+    "bar": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "required": ["bar"]
+}

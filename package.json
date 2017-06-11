@@ -1,0 +1,29 @@
+{
+  "name": "@nimerritt/muesli-tools",
+  "version": "0.0.1",
+  "description": "Tools for generating code from Muesli-Schemas",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Nicholas Merritt",
+  "license": "ISC",
+  "devDependencies": {
+    "@nimerritt/muesli-schema": "^0.0.5",
+    "@types/chai": "^4.0.0",
+    "@types/lodash": "^4.14.65",
+    "@types/mocha": "^2.2.41",
+    "@types/swagger-schema-official": "^2.0.5",
+    "chai": "^4.0.1",
+    "mocha": "^3.4.2",
+    "ts-node": "^3.0.4",
+    "typescript": "^2.3.4"
+  },
+  "dependencies": {
+    "dts-dom": "^0.1.18",
+    "lodash": "^4.17.4"
+  }
+}

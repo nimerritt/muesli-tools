@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/nimerritt/muesli/master/muesli-type.json",
+  "title": "Optional Foo",
+  "type": "object",
+  "properties": {
+    "foo": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "required": []
+}
