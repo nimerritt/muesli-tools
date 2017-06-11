@@ -71,8 +71,8 @@ describe('Given an empty muesli schema', () => {
 
   describe('createInterface', () => {
     it('should return an interface with the name passed in', () => {
-      const expected_intf = dom.create.interface('Test');
-      expect(createInterface('Test', schema)).to.eql(expected_intf);
+      const expected_intf = dom.create.interface('IFoo');
+      expect(createInterface('IFoo', schema)).to.eql(expected_intf);
     });
   });
 });

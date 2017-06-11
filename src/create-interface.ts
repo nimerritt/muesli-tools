@@ -37,7 +37,7 @@ function tsType(schema: MuesliNode): dom.Type {
 }
 
 export function createInterface(name: string, root: MuesliObject): dom.InterfaceDeclaration {
-  const intf = dom.create.interface('Test');
+  const intf = dom.create.interface(name);
   intf.members = tsProperties(root);
   return intf;
 }
