@@ -2,15 +2,18 @@
   "name": "@nimerritt/muesli-tools",
   "version": "0.0.0-development",
   "description": "Tools for generating code from Muesli-Schemas",
-  "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
+  "publishConfig": { "access": "public" },
   "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build",
     "test": "mocha",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "commitmsg": "validate-commit-msg"
   },
+  "types": "build/src/index.d.ts",
+  "files": [
+    "build/src/**"
+  ],
   "author": "Nicholas Merritt",
   "license": "ISC",
   "devDependencies": {

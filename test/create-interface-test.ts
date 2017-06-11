@@ -1,4 +1,4 @@
-import { createInterface } from "../src/parse";
+import { createInterface } from "../src/create-interface";
 import { MuesliSchema } from "@nimerritt/muesli-schema";
 import * as dom from 'dts-dom';
 import { expect } from 'chai';
