@@ -1,13 +1,14 @@
 {
   "name": "@nimerritt/muesli-tools",
-  "version": "0.0.1",
+  "version": "0.0.0-development",
   "description": "Tools for generating code from Muesli-Schemas",
   "main": "index.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "author": "Nicholas Merritt",
   "license": "ISC",
@@ -20,10 +21,15 @@
     "chai": "^4.0.1",
     "mocha": "^3.4.2",
     "ts-node": "^3.0.4",
-    "typescript": "^2.3.4"
+    "typescript": "^2.3.4",
+    "semantic-release": "^6.3.6"
   },
   "dependencies": {
     "dts-dom": "^0.1.18",
     "lodash": "^4.17.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nimerritt/muesli-tools.git"
   }
 }
