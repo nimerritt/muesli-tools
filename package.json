@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "mocha",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "commitmsg": "validate-commit-msg"
   },
   "author": "Nicholas Merritt",
   "license": "ISC",
@@ -19,10 +20,12 @@
     "@types/mocha": "^2.2.41",
     "@types/swagger-schema-official": "^2.0.5",
     "chai": "^4.0.1",
+    "husky": "^0.13.4",
     "mocha": "^3.4.2",
+    "semantic-release": "^6.3.6",
     "ts-node": "^3.0.4",
     "typescript": "^2.3.4",
-    "semantic-release": "^6.3.6"
+    "validate-commit-msg": "^2.12.2"
   },
   "dependencies": {
     "dts-dom": "^0.1.18",
