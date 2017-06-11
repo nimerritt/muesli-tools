@@ -2,7 +2,9 @@
   "name": "@nimerritt/muesli-tools",
   "version": "0.0.1",
   "description": "Tools for generating code from Muesli-Schemas",
-  "publishConfig": { "access": "public" },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsc",
     "prepublish": "npm run build",
@@ -17,7 +19,7 @@
   "author": "Nicholas Merritt",
   "license": "ISC",
   "devDependencies": {
-    "@nimerritt/muesli-schema": "^0.0.5",
+    "@nimerritt/muesli-schema": "^0.1.0",
     "@types/chai": "^4.0.0",
     "@types/lodash": "^4.14.65",
     "@types/mocha": "^2.2.41",
