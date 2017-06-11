@@ -6,7 +6,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "rm -r ./build && tsc",
+    "build": "tsc",
     "prepublish": "npm run build",
     "test": "mocha",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
