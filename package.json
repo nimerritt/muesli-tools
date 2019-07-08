@@ -21,7 +21,7 @@
   "devDependencies": {
     "@nimerritt/muesli-schema": "^0.1.0",
     "@types/chai": "^4.0.0",
-    "@types/lodash": "^4.14.65",
+    "@types/lodash": "^4.14.136",
     "@types/mocha": "^2.2.41",
     "@types/swagger-schema-official": "^2.0.5",
     "chai": "^4.0.1",
