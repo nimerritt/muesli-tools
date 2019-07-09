@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "dts-dom": "^0.1.18",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.13"
   },
   "repository": {
     "type": "git",
