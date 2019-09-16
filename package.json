@@ -33,7 +33,7 @@
     "validate-commit-msg": "^2.12.2"
   },
   "dependencies": {
-    "dts-dom": "^0.1.18",
+    "dts-dom": "^3.4.0",
     "lodash": "^4.17.4"
   },
   "repository": {
