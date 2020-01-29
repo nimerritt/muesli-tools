@@ -22,7 +22,7 @@
     "@nimerritt/muesli-schema": "^0.1.0",
     "@types/chai": "^4.0.0",
     "@types/lodash": "^4.14.65",
-    "@types/mocha": "^2.2.41",
+    "@types/mocha": "^7.0.0",
     "@types/swagger-schema-official": "^2.0.5",
     "chai": "^4.0.1",
     "husky": "^0.13.4",
